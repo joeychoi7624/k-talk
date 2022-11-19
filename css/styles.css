@@ -9,6 +9,8 @@
 
 /* Screens */
 @import "screens/friends.css";
+@import "screens/find.css";
+@import "components/icon-row.css";
 
 * {
   box-sizing: border-box;
