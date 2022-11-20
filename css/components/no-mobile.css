@@ -1,4 +1,4 @@
-#no-mobile {
+#no-mobile__max {
   position: absolute;
   z-index: 99;
   height: 100vh;
@@ -11,8 +11,27 @@
   top: 0;
 }
 
-@media screen and (max-width: 645px) {
-  #no-mobile {
+#no-moblie__min {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-color: lightgreen;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+}
+
+@media screen and (max-width: 900px) {
+  #no-mobile__max {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 565px) {
+  #no-moblie__min {
     display: none;
   }
 }
