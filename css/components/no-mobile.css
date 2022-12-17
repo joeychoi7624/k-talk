@@ -2,12 +2,12 @@
   position: absolute;
   z-index: 99;
   height: 100vh;
-  background-color: lightgreen;
+  background-color: deepskyblue;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 32px;
+  font-size: 40px;
   top: 0;
 }
 
@@ -15,12 +15,12 @@
   position: absolute;
   z-index: 99;
   height: 100vh;
-  background-color: lightgreen;
+  background-color: deepskyblue;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 32px;
+  font-size: 40px;
   top: 0;
 }
 
@@ -30,7 +30,7 @@
   }
 }
 
-@media screen and (min-width: 565px) {
+@media screen and (min-width: 580px) {
   #no-moblie__min {
     display: none;
   }
